@@ -1,0 +1,122 @@
+/********************BASIC SETUPS*****************/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    color:#cecece;
+    background-color: #fff;
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    font-size: 22px;
+    text-rendering: optimizeLegibility;
+}
+h1{
+    font-size: 200%;
+    font-weight: 300;
+    letter-spacing:1px;
+    text-transform: uppercase;
+    word-spacing: 2px;
+    
+}
+.row{
+    width: 1140px;
+    margin: 0 auto;
+}
+section{
+    padding: 80px 0px;
+}
+
+.main-nav img {
+    float: left;
+    width:120px;
+    height: auto;
+}
+
+.navs {
+    padding-top: 30px;
+    list-style: none;
+}
+.navs li{
+    display:inline-block;
+    float: right;
+    margin-right: 20px;
+}
+.navs li a:link,
+.navs li a:visited{
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+    border-bottom: 2px solid transparent;
+    transition:border-bottom 0.2s; 
+}
+.navs li a:hover,
+.navs li a:active{
+    border-bottom: 2px solid green;
+}
+.main-head {
+    position: relative;
+    background-image:linear-gradient(rgba(0, 0, 0, 0.78),rgba(0, 0, 0, 0.78)),url(img/spotify-devices.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+   
+}
+header{
+    color: #fff;
+}
+.heading {
+    position: absolute;
+    top: 150%;
+    left: auto;
+    padding-left:18%;
+}
+
+.heading p{
+    font-size:70%;
+    word-spacing: 3px;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+.btn {
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    margin-right: 20px;
+    padding: 10px 20px;
+    border: 1px solid green;
+    border-radius: 200px;
+}
+
+
+
+#whte-paragraph {
+    color: #fff;
+}
+
+#whte-head {
+    color:#fff;
+}
+
+.btn-full:link,
+.btn-full:visited{
+    background-color: green;
+    
+}
+.btn-full:hover,
+.btn-full:active{
+    background-color: #166016;
+}
+
+.btn-ghost:link,
+.btn-ghost:visited{
+    color: green;
+    transition: color 0.2s, background-color 0.2s;  
+}
+.btn-ghost:hover,
+.btn-ghost:active{
+    color: #fff;
+    background-color: #166016;
+}
