@@ -14,11 +14,26 @@ html{
 }
 h1{
     font-size: 200%;
-    font-weight: 300;
+     word-spacing: 2px;
     letter-spacing:1px;
-    text-transform: uppercase;
-    word-spacing: 2px;
+}
+h1,h2{
     
+    font-weight: 300;
+    text-transform: uppercase; 
+}
+h2{
+    font-size: 130%;
+    text-align: center;
+}
+h2:after{
+    display: block;
+    content: '.';
+    height: 2px;
+    width: 100px;
+    background-color: green;
+    margin:0 auto;
+    margin-top: 20px;
 }
 .row{
     width: 1140px;
@@ -60,6 +75,7 @@ section{
     background-image:linear-gradient(rgba(0, 0, 0, 0.78),rgba(0, 0, 0, 0.78)),url(img/spotify-devices.jpg);
     background-size: cover;
     background-position: center;
+    background-attachment: fixed;
     height: 100vh;
    
 }
@@ -119,4 +135,56 @@ header{
 .btn-ghost:active{
     color: #fff;
     background-color: #166016;
+}
+
+
+
+.box {
+    padding: 2%;
+    
+}
+.box p{
+    line-height: 135%;
+    font-size: 95%;
+    font-weight: 300;
+}
+.box h3{
+    font-size: 120%;
+    font-weight: 300;
+}
+.icon-big {
+    font-size: 50px;
+    color: green;
+}
+
+.phto-ul {
+    list-style: none;
+   width: 100%;
+}
+.phto-ul li{
+    display: block;
+    width: 25%;
+    float: left;
+    background-color: #000;
+}
+.fig-photo {
+    width: 100%;
+    margin: 0;
+    overflow: hidden;
+    opacity: 0.7;
+}
+
+
+.photo {
+    width: 100%;
+    height: auto;
+    transform: scale(1.15);
+    transition: transform 0.2s;
+}
+.photo:hover{
+    transform: scale(1.03);
+}
+
+.photoz {
+    padding: 0;
 }
