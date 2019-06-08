@@ -12,6 +12,14 @@ html{
     font-size: 22px;
     text-rendering: optimizeLegibility;
 }
+.clearfix{zoom:1}
+.clearfix:after{
+    content: " ";
+    display: block;
+    clear: both;
+    height: 0;
+    visibility: hidden;
+}
 h1{
     font-size: 200%;
      word-spacing: 2px;
@@ -188,3 +196,20 @@ header{
 .photoz {
     padding: 0;
 }
+.app-col{
+    margin-bottom: 20px;
+}
+.app-col div {
+    color: green;
+    border: 2px solid green;
+    border-radius: 50%;
+    height: 55px;
+    width: 55px;
+    text-align: center;
+    padding: 5px;
+    display: inline-block;
+    float: left;
+    margin-right: 15px;
+}
+
+
